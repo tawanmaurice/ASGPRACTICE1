@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tawan Perry — Cloud Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO basics -->
+  <meta name="description" content="Cloud engineer portfolio — AWS, Terraform, Docker, and hands-on projects.">
+  <meta property="og:title" content="Tawan Perry — Cloud Engineer">
+  <meta property="og:description" content="AWS • Terraform • Docker • Projects & highlights">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="headshot.jpg">
+  <meta name="theme-color" content="#0f172a">
+
+  <style>
+    :root{
+      --bg:#0b1020; --card:#121836; --ink:#e5e7eb; --muted:#9aa3b2; --accent:#60a5fa; --accent-2:#34d399; --line:#1f2a4a;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:linear-gradient(180deg,#0b1020 0%,#0b1020 60%,#0a1028 100%);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1000px;margin:0 auto;padding:28px}
+    header{display:flex;gap:28px;align-items:center;flex-wrap:wrap;padding:28px 0;border-bottom:1px solid var(--line)}
+    .avatar{width:112px;height:112px;border-radius:16px;overflow:hidden;flex:0 0 auto;border:1px solid var(--line);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .intro{min-width:260px}
+    h1{margin:0 0 6px;font-size:clamp(24px,3.6vw,40px);line-height:1.15}
+    .tag{color:var(--muted);font-size:15px}
+    .cta{margin-top:14px;display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;background:var(--accent);color:#061022;font-weight:600;border:1px solid rgba(255,255,255,.08)}
+    .btn.alt{background:transparent;color:var(--ink);border:1px solid var(--line)}
+    .btn:hover{filter:brightness(1.05);text-decoration:none}
+
+    section{padding:28px 0;border-bottom:1px solid var(--line)}
+    h2{margin:0 0 14px;font-size:22px;letter-spacing:.2px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+    .card{background:linear-gradient(180deg,#121836 0%,#0f1530 100%);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 6px 24px rgba(0,0,0,.25)}
+    .pill{display:inline-block;padding:4px 8px;border-radius:999px;background:#0f2349;border:1px solid var(--line);color:#cfe1ff;font-size:12px;margin:0 6px 6px 0}
+    ul.clean{margin:10px 0 0;padding:0 0 0 18px}
+    .foot{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;align-items:center;padding:24px 0}
+    .muted{color:var(--muted)}
+    .kbd{font:12px/1.2 ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;background:#0e1a34;border:1px solid var(--line);padding:3px 6px;border-radius:6px;color:#cfe1ff}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .big{font-size:15px}
+    .divider{height:1px;background:var(--line);margin:8px 0 0}
+    .badge{font:11px;margin-left:6px;color:#8ee6c4}
+    @media (max-width:520px){ .cta{flex-direction:column} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">
+        <img src="headshot.jpg" alt="Tawan Perry headshot" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22112%22 height=%22112%22><rect width=%22112%22 height=%22112%22 fill=%22%23121836%22/><text x=%2256%22 y=%2262%22 font-size=%2220%22 text-anchor=%22middle%22 fill=%22%239aa3b2%22>TP</text></svg>'">
+      </div>
+      <div class="intro">
+        <h1>Tawan Perry</h1>
+        <div class="tag">Cloud Engineer • AWS • Terraform • Docker</div>
+        <div class="cta">
+          <a class="btn" href="#contact" title="Get in touch">Get in touch</a>
+          <a class="btn alt" href="#projects">See projects</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="highlights">
+      <h2>Highlights</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="big"><strong>Terraform</strong> IaC</div>
+          <ul class="clean">
+            <li>EC2, VPC, Security Groups</li>
+            <li>Dockerized WordPress on EC2</li>
+            <li>GitHub hygiene & repo structure</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="big"><strong>AWS</strong> Hands-On</div>
+          <ul class="clean">
+            <li>Mini “Netflix” pipeline (S3 + MediaConvert + CloudFront)</li>
+            <li>Route 53 troubleshooting & DNS basics</li>
+            <li>Linux, user-data, and hardening</li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="big"><strong>Dev</strong> Fun</div>
+          <ul class="clean">
+            <li>Pac-Man clone (browser)</li>
+            <li>Platformer mini-game (HTML5 canvas)</li>
+            <li>Continuous learning & labs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Tools</h2>
+      <div class="row">
+        <span class="pill">AWS</span>
+        <span class="pill">Terraform</span>
+        <span class="pill">Docker</span>
+        <span class="pill">Linux</span>
+        <span class="pill">Git/GitHub</span>
+        <span class="pill">CloudFront</span>
+        <span class="pill">Route 53</span>
+        <span class="pill">EC2</span>
+        <span class="pill">S3</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="big"><strong>Mini “Netflix”</strong> VOD</div>
+          <div class="muted">S3 ingest → MediaConvert → CloudFront delivery</div>
+          <div class="divider"></div>
+          <div class="row" style="margin-top:10px">
+            <a href="#" class="pill">Code</a>
+            <a href="#" class="pill">Demo</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="big"><strong>Pac-Man</strong> (browser)</div>
+          <div class="muted">HTML5 canvas + JS; maze logic & ghosts AI-lite</div>
+          <div class="divider"></div>
+          <div class="row" style="margin-top:10px">
+            <a href="#" class="pill">Code</a>
+            <a href="#" class="pill">Play</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="big"><strong>WordPress</strong> on EC2</div>
+          <div class="muted">Terraform + Docker compose + EIP</div>
+          <div class="divider"></div>
+          <div class="row" style="margin-top:10px">
+            <a href="#" class="pill">Infra</a>
+            <a href="#" class="pill">Write-up</a>
+          </div>
+        </div>
+      </div>
+      <div class="muted" style="margin-top:8px">Add links when ready <span class="badge">easy later</span></div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="card">
+        <p>Cloud engineer focused on building reliable, secure setups on AWS. I like keeping things simple, learning in public, and turning labs into real-world muscle memory.</p>
+        <p>Currently exploring Terraform patterns, containerized WordPress, and media workloads. Next up: polishing a one-page portfolio and building a Mario-like game for fun.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="card">
+        <div class="row">
+          <span class="kbd">Email</span> <a href="mailto:tawan@example.com">tawan@example.com</a>
+        </div>
+        <div class="row" style="margin-top:8px">
+          <span class="kbd">GitHub</span> <a href="https://github.com/tawanmaurice" target="_blank">github.com/tawanmaurice</a>
+        </div>
+        <div class="row" style="margin-top:8px">
+          <span class="kbd">Site</span> <a href="https://tawanperry.com" target="_blank">tawanperry.com</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="foot">
+      <div class="muted">© <span id="year"></span> Tawan Perry</div>
+      <div class="muted">Built with HTML & CSS · no framework</div>
+    </div>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
+

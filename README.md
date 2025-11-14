@@ -1,10 +1,10 @@
-AWS Auto Scaling Group + Application Load Balancer (Terraform Project)
+<h1 align="center"><strong>AWS Auto Scaling Group + Application Load Balancer (Terraform Project)</strong></h1>
 
 This project deploys a complete, production-style AWS environment using Terraform. It demonstrates your ability to design and provision real-world cloud infrastructure including networking, compute scaling, load balancing, and secure architecture patterns.
 
 This setup is similar to what many organizations use in their web applications: highly available, scalable, and fault-tolerant.
 
-📌 Project Overview
+## 📌 Project Overview
 
 This Terraform configuration builds:
 
